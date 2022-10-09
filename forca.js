@@ -1,7 +1,7 @@
 
 const tela = document.querySelector('canvas');
 const pincel = tela.getContext('2d');
-const divAparce = document.querySelector('.some');
+const divAparce = document.getElementById('jogo');
 const divDesaparece = document.getElementById('desaparece');
 const palvraNova = document.getElementById('palavaNova')
 const btn_adc_palavra = document.getElementById('btn_adc_palavra')
