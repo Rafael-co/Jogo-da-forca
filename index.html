@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styless.css">
+        <title>Jogo da Forca</title>
+    </head>
+    <header>
+        <img src="/src/Logo.png" id="logo">
+    </header>
+    <body>
+        <div id="desaparece">
+            <button id="comeca">Iniciar-Jogo</button>
+            <button id ="adcPalavra" onclick="aparece_input()">adicionar Palavra</button>
+
+
+        </div>
+        <div id="palavaNova" class="some">
+            <input id="InputNovaPalavra" maxlength="12" >
+            <button id="btn_adc_palavra" > adicionar a Palavra</button>
+        </div>
+  
+   <main>
+    <div  class = "some">
+           
+            
+            <section class="jogo" id="forca">
+                <div class='canvas'>
+                    <canvas width="1200" height="800"></canvas>
+                </div>
+                <div class="btn_Jogo_container">
+                    <input type="submit"  value="novo jogo" class="nvo_Jgo" id="nvo_Jogo"></input>
+                    <input  type = "submit" value="desistir"class="desistir" onclick="desistir_Jogo()"></input>
+                  
+                </div>
+
+                
+                    
+                </div>
+
+                
+
+
+
+            </section>
+            
+        </div>
+        </main>
+    </body>
+    
+    
+    <script src="/forca.js" async defer></script>
+</html>
