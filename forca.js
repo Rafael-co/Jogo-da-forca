@@ -1,4 +1,7 @@
 //estou mudando
+runs:
+  using: 'node16'
+  main: 'main.js'
 const tela = document.querySelector('canvas');
 const pincel = tela.getContext('2d');
 const divAparce = document.getElementById('jogo');
