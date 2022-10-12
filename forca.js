@@ -1,4 +1,4 @@
-
+//estou mudando
 const tela = document.querySelector('canvas');
 const pincel = tela.getContext('2d');
 const divAparce = document.getElementById('jogo');
@@ -13,6 +13,8 @@ var segredo ="";
 let palavra_certa = []
 let letras_escolhidas=[]
 let contador= 0
+
+
 
 btn_adc_palavra.addEventListener('click',() =>{
 
