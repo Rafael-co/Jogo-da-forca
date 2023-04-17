@@ -9,6 +9,6 @@ um jogo da forca em javascript com o intuito de treinar manipulação de array ,
 - display flex
 - Desenho no canva do HTML(dinâmico)
 
-### Vídeo de apresentação do resutltado
+### Vídeo de apresentação do resultado
 
 https://user-images.githubusercontent.com/108190323/232554747-8d36fcab-1adf-4f21-be5d-7dc688a879da.mp4
