@@ -2,7 +2,7 @@
 um jogo da forca em javascript com o intuito de treinar manipulação de array , DOM do javascript , canva e eventos
 
 
-##Tecnologias usadas:
+## Tecnologias usadas:
 - Manipulação de DOM
 - Manipulação de array
 - Manipulação de eventos
